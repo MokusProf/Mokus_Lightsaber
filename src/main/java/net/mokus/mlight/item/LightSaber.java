@@ -88,8 +88,7 @@ public class LightSaber extends SwordItem {
                         SoundCategory.PLAYERS,
                         0.5f, 1.0f
                 );
-                }
-                if (getColor(stack) == 2){
+                } else if (getColor(stack) == 2){
                     world.playSound(
                             null,
                             user.getBlockPos(),
@@ -125,8 +124,7 @@ public class LightSaber extends SwordItem {
                             SoundCategory.PLAYERS,
                             0.5f, 1.0f
                     );
-                }
-                if (getColor(stack) == 2){
+                } else if (getColor(stack) == 2){
                     world.playSound(
                             null,
                             user.getBlockPos(),
