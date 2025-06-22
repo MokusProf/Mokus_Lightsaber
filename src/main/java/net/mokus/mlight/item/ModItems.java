@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,10 +20,13 @@ public class ModItems {
 
     //WEAPON CODE
     public static final Item COUNT_DOOKU = registerItem("count_dooku",
-            new SwordItem(ToolMaterials.NETHERITE,3,-2.4f,new FabricItemSettings().maxDamage(1)));
+            new PMLightSabers(ToolMaterials.NETHERITE,-5,-2.4f,new FabricItemSettings()));
 
     public static final Item MOKUS_LIGHTSABER = registerItem("mokus_lightsaber",
-            new SwordItem(ToolMaterials.NETHERITE,3,-2.4f,new FabricItemSettings().maxDamage(1)));
+            new PMLightSabers(ToolMaterials.NETHERITE,-5,-2.4f,new FabricItemSettings()));
+
+    public static final Item BASE_LIGHTSABER = registerItem("base_lightsaber",
+            new LightSaber(ToolMaterials.NETHERITE,-5,-2.4f,new FabricItemSettings()));
 
     //Consumables Code
     //public static final Item BLOOM_DUST = registerItem("bloom_dust",

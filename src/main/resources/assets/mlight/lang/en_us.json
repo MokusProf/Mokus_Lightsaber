@@ -1,6 +1,7 @@
 {
   "item.mlight.count_dooku": "Count Dooku's Lightsaber",
   "item.mlight.mokus_lightsaber": "Mokus's Lightsaber",
+  "item.mlight.base_lightsaber": "Debug Lightsaber",
 
   "itemgroup.lightsaber": "Mokus's Lightsabers"
 

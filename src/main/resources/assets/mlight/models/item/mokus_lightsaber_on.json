@@ -3,48 +3,44 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "mlight:item/count_dooku_off"
+		"1": "mlight:item/mokus_lightsaber_on"
 	},
-	"overrides": [
-		{"predicate": { "custom_model_data": 0 }, "model": "mlight:item/count_dooku"},
-		{"predicate": { "custom_model_data": 1 }, "model": "mlight:item/count_dooku_on"}
-	],
 	"elements": [
 		{
-			"from": [7.0001, -6.95125, 5.92336],
-			"to": [10.0001, -5.95125, 9.92336],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.0001, -1.40797, 7.96946]},
+			"from": [6.75, -6.04328, 5.2039],
+			"to": [10.25, -5.04328, 8.7039],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -0.5, 7.75]},
 			"faces": {
-				"north": {"uv": [1, 7.5, 1.75, 7.75], "texture": "#1"},
+				"north": {"uv": [1, 7.5, 2, 7.75], "texture": "#1"},
 				"east": {"uv": [7.5, 1, 8.5, 1.25], "texture": "#1"},
-				"south": {"uv": [7.5, 1.5, 8.25, 1.75], "texture": "#1"},
+				"south": {"uv": [7.5, 1.5, 8.5, 1.75], "texture": "#1"},
 				"west": {"uv": [7.5, 2, 8.5, 2.25], "texture": "#1"},
-				"up": {"uv": [5.25, 7, 4.5, 6], "texture": "#1"},
-				"down": {"uv": [6.5, 6, 5.75, 7], "texture": "#1"}
+				"up": {"uv": [5.5, 7, 4.5, 6], "texture": "#1"},
+				"down": {"uv": [6.75, 6, 5.75, 7], "texture": "#1"}
 			}
 		},
 		{
 			"from": [7, -2, 6],
-			"to": [10, 4, 9],
+			"to": [10, 3, 9],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, -0.5, 7.75]},
 			"faces": {
-				"north": {"uv": [6.5, 0, 7.25, 1.5], "texture": "#1"},
-				"east": {"uv": [6.5, 1.5, 7.25, 3], "texture": "#1"},
-				"south": {"uv": [6.5, 3, 7.25, 4.5], "texture": "#1"},
-				"west": {"uv": [6.5, 4.5, 7.25, 6], "texture": "#1"},
+				"north": {"uv": [6.5, 0, 7.25, 1.25], "texture": "#1"},
+				"east": {"uv": [6.5, 1.5, 7.25, 2.75], "texture": "#1"},
+				"south": {"uv": [6.5, 3, 7.25, 4.25], "texture": "#1"},
+				"west": {"uv": [6.5, 4.5, 7.25, 5.75], "texture": "#1"},
 				"up": {"uv": [6.75, 8, 6, 7.25], "texture": "#1"},
 				"down": {"uv": [7.75, 7.25, 7, 8], "texture": "#1"}
 			}
 		},
 		{
-			"from": [7.0001, -5.96612, 5.55919],
+			"from": [7.0001, -5.21612, 5.55919],
 			"to": [9.9999, -1.21612, 8.55919],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -0.5, 7.75]},
 			"faces": {
-				"north": {"uv": [3, 7, 3.75, 8.25], "texture": "#1"},
-				"east": {"uv": [7, 6, 7.75, 7.25], "texture": "#1"},
-				"south": {"uv": [4, 7.25, 4.75, 8.5], "texture": "#1"},
-				"west": {"uv": [5, 7.25, 5.75, 8.5], "texture": "#1"},
+				"north": {"uv": [3, 7, 3.75, 8], "texture": "#1"},
+				"east": {"uv": [7, 6, 7.75, 7], "texture": "#1"},
+				"south": {"uv": [4, 7.25, 4.75, 8.25], "texture": "#1"},
+				"west": {"uv": [5, 7.25, 5.75, 8.25], "texture": "#1"},
 				"up": {"uv": [0.75, 8.25, 0, 7.5], "texture": "#1"},
 				"down": {"uv": [8.25, 0, 7.5, 0.75], "texture": "#1"}
 			}
@@ -55,11 +51,24 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 7.75]},
 			"faces": {
 				"north": {"uv": [7.5, 3.25, 7.5, 4.5], "texture": "#1"},
-				"east": {"uv": [4.5, 4.5, 6.25, 5.75], "texture": "#1"},
+				"east": {"uv": [4.5, 0, 6.25, 1.25], "texture": "#1"},
 				"south": {"uv": [7.75, 3.25, 7.75, 4.5], "texture": "#1"},
 				"west": {"uv": [4.5, 0, 6.25, 1.25], "texture": "#1"},
 				"up": {"uv": [1, 9.75, 1, 8], "texture": "#1"},
 				"down": {"uv": [1.25, 8, 1.25, 9.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5, 2, 7.5],
+			"to": [12, 7, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 7.75]},
+			"faces": {
+				"north": {"uv": [4.5, 4.5, 6.25, 5.75], "texture": "#1"},
+				"east": {"uv": [1.5, 8, 1.5, 9.25], "texture": "#1"},
+				"south": {"uv": [4.5, 4.5, 6.25, 5.75], "texture": "#1"},
+				"west": {"uv": [1.75, 8, 1.75, 9.25], "texture": "#1"},
+				"up": {"uv": [9.25, 4.75, 7.5, 4.75], "texture": "#1"},
+				"down": {"uv": [9.25, 5, 7.5, 5], "texture": "#1"}
 			}
 		},
 		{
@@ -147,7 +156,7 @@
 							"name": "Guard",
 							"origin": [8.5, 5, 5],
 							"color": 0,
-							"children": [3]
+							"children": [3, 4]
 						}
 					]
 				},
@@ -155,7 +164,7 @@
 					"name": "Blade",
 					"origin": [8, 9, 8],
 					"color": 0,
-					"children": [4, 5]
+					"children": [5, 6]
 				}
 			]
 		}

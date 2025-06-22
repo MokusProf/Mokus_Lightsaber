@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.mokus.mlight.item.ModItemGroups;
 import net.mokus.mlight.item.ModItems;
+import net.mokus.mlight.sounds.ModSound;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class MLight implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModSound.registerSounds();
 	}
 }

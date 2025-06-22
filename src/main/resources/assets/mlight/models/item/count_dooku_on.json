@@ -3,12 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "mlight:item/count_dooku_off"
+		"1": "mlight:item/count_dooku_on"
 	},
-	"overrides": [
-		{"predicate": { "custom_model_data": 0 }, "model": "mlight:item/count_dooku"},
-		{"predicate": { "custom_model_data": 1 }, "model": "mlight:item/count_dooku_on"}
-	],
 	"elements": [
 		{
 			"from": [7.0001, -6.95125, 5.92336],

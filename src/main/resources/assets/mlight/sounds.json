@@ -1,0 +1,50 @@
+{
+  "lightsaber_activation_blue": {
+  "subtitle": "sounds.mlight.lightsaber_activation_blue",
+    "sounds": [
+      "mlight:lightsaber_activation_blue"
+    ]
+  },
+  "lightsaber_deactivation_blue": {
+    "subtitle": "sounds.mlight.lightsaber_deactivation_blue",
+    "sounds": [
+      "mlight:lightsaber_deactivation_blue"
+    ]
+  },
+  "lightsaber_activation_blue_alt": {
+    "subtitle": "sounds.mlight.lightsaber_activation_blue_alt",
+    "sounds": [
+      "mlight:lightsaber_activation_blue_alt"
+    ]
+  },
+  "lightsaber_deactivation_blue_alt": {
+    "subtitle": "sounds.mlight.lightsaber_deactivation_blue_alt",
+    "sounds": [
+      "mlight:lightsaber_deactivation_blue_alt"
+    ]
+  },
+  "lightsaber_activation_red": {
+    "subtitle": "sounds.mlight.lightsaber_activation_red",
+    "sounds": [
+      "mlight:lightsaber_activation_red"
+    ]
+  },
+  "lightsaber_deactivation_red": {
+    "subtitle": "sounds.mlight.lightsaber_deactivation_red",
+    "sounds": [
+      "mlight:lightsaber_deactivation_red"
+    ]
+  },
+  "lightsaber_activation_green": {
+    "subtitle": "sounds.mlight.lightsaber_activation_green",
+    "sounds": [
+      "mlight:lightsaber_activation_green"
+    ]
+  },
+  "lightsaber_deactivation_green": {
+    "subtitle": "sounds.mlight.lightsaber_deactivation_green",
+    "sounds": [
+      "mlight:lightsaber_deactivation_green"
+    ]
+  }
+}
