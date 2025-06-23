@@ -25,7 +25,7 @@ public class LightSaber extends SwordItem {
     private static final UUID ATTACK_DAMAGE_MODIFIER_ID = UUID.fromString("d21cf99e-47f4-11ec-81d3-0242ac130003");
     private static final UUID ATTACK_SPEED_MODIFIER_ID = UUID.fromString("d21cfa62-47f4-11ec-81d3-0242ac130003");
 
-    private static final int COLOR_VARIANTS = 4;
+    private static final int COLOR_VARIANTS = 6;
 
     public LightSaber(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);

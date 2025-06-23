@@ -28,6 +28,9 @@ public class ModItems {
     public static final Item BASE_LIGHTSABER = registerItem("base_lightsaber",
             new LightSaber(ToolMaterials.NETHERITE,-5,-2.4f,new FabricItemSettings()));
 
+    public static final Item OH_LIGHTSABER = registerItem("oh_lightsaber",
+            new LightSaber(ToolMaterials.NETHERITE,-5,-2.4f,new FabricItemSettings()));
+
     //Consumables Code
     //public static final Item BLOOM_DUST = registerItem("bloom_dust",
             //new Item(new FabricItemSettings().food(ModFoodComponents.BLOOM_DUST)));

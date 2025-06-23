@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MOKUS_LIGHTSABER);
                         entries.add(ModItems.BASE_LIGHTSABER);
 
+                        entries.add(ModItems.OH_LIGHTSABER);
+
 
 
                     }).build());

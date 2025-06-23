@@ -3,29 +3,46 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "mlight:item/customizable_lightsabers/debug/base_lightsaber"
+		"2": "mlight:item/customizable_lightsabers/one_handed/oh_lightsaber_green"
 	},
-	"overrides": [
-		{"predicate": { "custom_model_data": 0 }, "model": "mlight:item/base_lightsaber"},
-		{"predicate": { "custom_model_data": 1 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_blue"},
-		{"predicate": { "custom_model_data": 2 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_red"},
-		{"predicate": { "custom_model_data": 3 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_purple"},
-		{"predicate": { "custom_model_data": 4 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_green"},
-		{"predicate": { "custom_model_data": 5 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_white"},
-		{"predicate": { "custom_model_data": 6 }, "model": "mlight:item/customizable_lightsabers/debug/base_lightsaber_pink"}
-	],
 	"elements": [
 		{
-			"from": [7, -6, 6],
+			"from": [7, -7, 6],
+			"to": [10, -3, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1.5, 7.75]},
+			"faces": {
+				"north": {"uv": [4.5, 7.25, 5.25, 8.25], "texture": "#2"},
+				"east": {"uv": [5.5, 7.25, 6.25, 8.25], "texture": "#2"},
+				"south": {"uv": [6.5, 1.25, 7.25, 2.25], "texture": "#2"},
+				"west": {"uv": [6.5, 3.75, 7.25, 4.75], "texture": "#2"},
+				"up": {"uv": [8.25, 8.25, 7.5, 7.5], "texture": "#2"},
+				"down": {"uv": [7.25, 7.5, 6.5, 8.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, -2, 6],
 			"to": [10, 3, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 7.75]},
 			"faces": {
-				"north": {"uv": [4.5, 6, 5.25, 8.25], "texture": "#2"},
-				"east": {"uv": [5.5, 6, 6.25, 8.25], "texture": "#2"},
-				"south": {"uv": [6.5, 0, 7.25, 2.25], "texture": "#2"},
-				"west": {"uv": [6.5, 2.5, 7.25, 4.75], "texture": "#2"},
+				"north": {"uv": [4.5, 6, 5.25, 7.25], "texture": "#2"},
+				"east": {"uv": [5.5, 6, 6.25, 7.25], "texture": "#2"},
+				"south": {"uv": [6.5, 0, 7.25, 1.25], "texture": "#2"},
+				"west": {"uv": [6.5, 2.5, 7.25, 3.75], "texture": "#2"},
 				"up": {"uv": [0.75, 8.25, 0, 7.5], "texture": "#2"},
 				"down": {"uv": [8.25, 0, 7.5, 0.75], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.5, -3, 6.5],
+			"to": [9.5, -2, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, -3, 6.5]},
+			"faces": {
+				"north": {"uv": [2.25, 5.25, 2.75, 5.5], "texture": "#2"},
+				"east": {"uv": [2.25, 6.25, 2.75, 6.5], "texture": "#2"},
+				"south": {"uv": [2.25, 5.75, 2.75, 6], "texture": "#2"},
+				"west": {"uv": [2.25, 6.75, 2.75, 7], "texture": "#2"},
+				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#2"},
+				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#2"}
 			}
 		},
 		{
@@ -185,13 +202,13 @@
 							"name": "Main",
 							"origin": [8, 9, 8],
 							"color": 0,
-							"children": [0]
+							"children": [0, 1, 2]
 						},
 						{
 							"name": "Guard",
 							"origin": [8.5, 5, 5],
 							"color": 0,
-							"children": [1, 2, 3, 4, 5, 6]
+							"children": [3, 4, 5, 6, 7, 8]
 						}
 					]
 				},
@@ -199,7 +216,7 @@
 					"name": "Blade",
 					"origin": [8, 9, 8],
 					"color": 0,
-					"children": [7, 8]
+					"children": [9, 10]
 				}
 			]
 		}
